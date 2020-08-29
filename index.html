@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex justify-between py-3 px-6">
+        <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png" class="w-24 h-6 ml-4">
+        </div>
+
+        <div class="flex">
+            <input type="text" name="search" class="border border-gray-400 px-3 py-1 placeholder-gray-900" placeholder="Search" size="70">
+            <div class="flex items-center border border-l-0 border-gray-400 px-6 hover:bg-gray-100">
+                <svg class="stroke-current text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path class="heroicon-ui" d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+            </div>
+        </div>
+
+        <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M16 8.38l4.55-2.27A1 1 0 0 1 22 7v10a1 1 0 0 1-1.45.9L16 15.61V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v1.38zm0 2.24v2.76l4 2V8.62l-4 2zM14 17V7H4v10h10z"/></svg>
+
+            <svg class="mx-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M5 3h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm0 2v4h4V5H5zm10-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm0 2v4h4V5h-4zM5 13h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4c0-1.1.9-2 2-2zm0 2v4h4v-4H5zm10-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4c0-1.1.9-2 2-2zm0 2v4h4v-4h-4z"/></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M15 19a3 3 0 0 1-6 0H4a1 1 0 0 1 0-2h1v-6a7 7 0 0 1 4.02-6.34 3 3 0 0 1 5.96 0A7 7 0 0 1 19 11v6h1a1 1 0 0 1 0 2h-5zm-4 0a1 1 0 0 0 2 0h-2zm0-12.9A5 5 0 0 0 7 11v6h10v-6a5 5 0 0 0-4-4.9V5a1 1 0 0 0-2 0v1.1z"/></svg>
+
+            <img src="https://lh3.googleusercontent.com/a-/AAuE7mBcaz_c674xj8DYlHtbUJ2FdsOwAeAWUf9gJSbx=s88-c-k-c0x00ffffff-no-rj-mo" class="
+        h-8 w-8 rounded-full ml-6">
+        </div>
+    </div>
+
+    <!-- <div class="bg-gray-200 h-screen"></div> -->
+    <div class="flex">
+        <div class="h-screen flex flex-col items-center text-xs text-gray-700 tracking-tighter cursor-pointer">
+            <div class="hover:bg-gray-200 flex flex-col items-center py-4 text-red-600 bg-gray-200 w-full">
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M13 20v-5h-2v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7.59l-.3.3a1 1 0 1 1-1.4-1.42l9-9a1 1 0 0 1 1.4 0l9 9a1 1 0 0 1-1.4 1.42l-.3-.3V20a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zm5 0v-9.59l-6-6-6 6V20h3v-5c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v5h3z"/></svg>
+                <span class="mt-2">Home</span>
+            </div>
+
+            <div class="hover:bg-gray-200 flex flex-col items-center py-4 w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M20 15a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1h-8a1 1 0 0 0 0 2h5.59L13 13.59l-3.3-3.3a1 1 0 0 0-1.4 0l-6 6a1 1 0 0 0 1.4 1.42L9 12.4l3.3 3.3a1 1 0 0 0 1.4 0L20 9.4V15z"/></svg>
+                <span class="mt-2">Trending</span>
+            </div>
+
+            <div class="hover:bg-gray-200 flex flex-col items-center py-4 w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM9.56 8.93l6.37-2.12a1 1 0 0 1 1.26 1.26l-2.12 6.37a1 1 0 0 1-.63.63l-6.37 2.12a1 1 0 0 1-1.26-1.26l2.12-6.37a1 1 0 0 1 .63-.63zm-.22 5.73l4-1.33 1.32-4-4 1.34-1.32 4z"/></svg>
+                <span class="mt-2">Subscriptions</span>
+            </div>
+
+            <div class="hover:bg-gray-200 flex flex-col items-center py-4 w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h7.41l2 2H20zM4 6v12h16V8h-7.41l-2-2H4z"/></svg>
+                <span class="mt-2">Library</span>
+            </div>
+
+            <div class="hover:bg-gray-200 flex flex-col items-center py-4 w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M5.41 16H18a2 2 0 0 0 2-2 1 1 0 0 1 2 0 4 4 0 0 1-4 4H5.41l2.3 2.3a1 1 0 0 1-1.42 1.4l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 1 1 1.42 1.4L5.4 16zM6 8a2 2 0 0 0-2 2 1 1 0 0 1-2 0 4 4 0 0 1 4-4h12.59l-2.3-2.3a1 1 0 1 1 1.42-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.42-1.4L18.6 8H6z"/></svg>
+                <span class="mt-2">History</span>
+            </div>
+        </div>
+        <div class="bg-gray-100 w-full px-6 pt-8">
+            <h1 class="text-xl font-semibold text-gray-700">Recommended</h1>
+
+            <div class="flex">
+                <div class="w-1/4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="w-1/4 mx-4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="w-1/4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="w-1/4 mx-4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex mt-4">
+                <div class="w-1/4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="w-1/4 mx-4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="w-1/4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="w-1/4 mx-4">
+                    <img src="https://picsum.photos/300/170">
+
+                    <div class="flex justify-between mt-4">
+                        <img class="rounded-full h-10 w-10" src="https://picsum.photos/50/50">
+                        <div>
+                            <h1>Relaxing Music for Stress -<br> Relief. Soothing Music</h1>
+                            <div class="mt-2 text-sm text-gray-800">
+                                <h2>Relaxing Sounds</h2>
+                                <h3>1.9K views 3 hours ago</h3>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm8 2a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
